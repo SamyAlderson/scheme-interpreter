@@ -88,11 +88,3 @@ python -m unittest discover -s tests
 ## License
 
 MIT License
-
-Quality standards:
-
-- Professional, confident tone
-- No filler words or vague statements
-- Specific and actionable instructions
-- Well-formatted Markdown
-- English only, never bilingual
