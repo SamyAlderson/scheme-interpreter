@@ -1,7 +1,9 @@
 # .gitignore
-# ignore node_modules and yarn.lock
-node_modules/
-yarn.lock
+
+# ignore built files
+*.pyc
+*.egg-info
+__pycache__/
 
 # ignore IDE files
 .idea/
@@ -9,12 +11,22 @@ yarn.lock
 
 # ignore build artifacts
 build/
+dist/
 
-# ignore coverage reports
-coverage/
+# ignore virtualenv
+venv/
 
-# ignore pyc files
-*.pyc
+# ignore node_modules
+node_modules/
 
-# ignore ruff cache
-.ruff-cache/
+# ignore docker stuff
+docker-compose.yml
+docker/
+
+# ignore other stuff
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.cache
+*.swp
+*.swo
