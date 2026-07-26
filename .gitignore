@@ -1,12 +1,20 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
-build/
-.venv/
+# .gitignore
+# ignore node_modules and yarn.lock
 node_modules/
-target/
-bin/
-obj/
+yarn.lock
+
+# ignore IDE files
+.idea/
+.vscode/
+
+# ignore build artifacts
+build/
+
+# ignore coverage reports
+coverage/
+
+# ignore pyc files
+*.pyc
+
+# ignore ruff cache
+.ruff-cache/
