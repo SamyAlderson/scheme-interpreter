@@ -1,32 +1,18 @@
 # .gitignore
 
-# ignore built files
-*.pyc
+# ignore built-in venv
+venv/
+
+# ignore build artifacts
+dist/
+build/
 *.egg-info
-__pycache__/
 
 # ignore IDE files
 .idea/
 .vscode/
 
-# ignore build artifacts
-build/
-dist/
-
-# ignore virtualenv
-venv/
-
-# ignore node_modules
-node_modules/
-
-# ignore docker stuff
-docker-compose.yml
-docker/
-
 # ignore other stuff
-Thumbs.db
-ehthumbs.db
-.DS_Store
-.cache
-*.swp
-*.swo
+*.pyc
+*.log
+*.tmp
